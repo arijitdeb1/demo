@@ -9,7 +9,7 @@ public class DemoController {
 
     @GetMapping("/test1")
     public String test1(){
-        System.out.println("local change after keep test commit");
+        System.out.println("local change after cherry pick");
         return "test1";
     }
 
