@@ -9,13 +9,13 @@ public class DemoController {
 
     @GetMapping("/test1")
     public String test1(){
-        System.out.println("local change after cherry pick");
+        System.out.println("local change after keep test commit");
         return "test1";
     }
 
     @GetMapping("/test2")
     public String test2(){
-        System.out.println("local change");
+        System.out.println("local change revert test");
         return "test2";
     }
 }
