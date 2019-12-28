@@ -26,4 +26,10 @@ public class DemoController {
 
         return "test3";
     }
+
+    @GetMapping("/test5")
+    public String test5(){
+
+        return "test5";
+    }
 }
