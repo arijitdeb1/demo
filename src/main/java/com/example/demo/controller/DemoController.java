@@ -20,4 +20,10 @@ public class DemoController {
         System.out.println("local change commit 12 test");
         return "test2";
     }
+
+    @GetMapping("/test3")
+    public String test3(){
+
+        return "test3";
+    }
 }
