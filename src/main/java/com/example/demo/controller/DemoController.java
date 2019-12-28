@@ -15,7 +15,7 @@ public class DemoController {
 
     @GetMapping("/test2")
     public String test2(){
-        System.out.println("local change revert test");
+        System.out.println("local change");
         return "test2";
     }
 }
