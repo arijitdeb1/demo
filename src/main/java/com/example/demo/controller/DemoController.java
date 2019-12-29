@@ -15,8 +15,7 @@ public class DemoController {
 
     @GetMapping("/test2")
     public String test2(){
-        System.out.println("changes after merge to branch");
-        System.out.println("local change commit 12 test");
+         System.out.println("master commit 2");
         return "test2";
     }
 
