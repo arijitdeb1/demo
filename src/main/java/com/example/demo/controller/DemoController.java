@@ -9,6 +9,7 @@ public class DemoController {
 
     @GetMapping("/test1")
     public String test1(){
+        System.out.println("branch commit 1");
         System.out.println("master commit 1");
         return "test1";
     }
