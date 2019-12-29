@@ -9,8 +9,7 @@ public class DemoController {
 
     @GetMapping("/test1")
     public String test1(){
-        System.out.println("commit again from branch1");
-        System.out.println("local change after keep test commit");
+        System.out.println("branch commit 1");
         return "test1";
     }
 
