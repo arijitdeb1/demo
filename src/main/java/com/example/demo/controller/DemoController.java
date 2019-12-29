@@ -21,7 +21,7 @@ public class DemoController {
 
     @GetMapping("/test3")
     public String test3(){
-
+         System.out.println("master commit 3");
         return "test3";
     }
 
